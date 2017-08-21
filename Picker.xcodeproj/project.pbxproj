@@ -12,6 +12,8 @@
 		FB02FE4F1F2F248100A2F74F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB02FE4D1F2F248100A2F74F /* Main.storyboard */; };
 		FB02FE511F2F248200A2F74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB02FE501F2F248200A2F74F /* Assets.xcassets */; };
 		FB02FE541F2F248200A2F74F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB02FE521F2F248200A2F74F /* LaunchScreen.storyboard */; };
+		FB02FE5C1F2F24AE00A2F74F /* areas.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB02FE5B1F2F24AE00A2F74F /* areas.plist */; };
+		FB02FE601F2F252500A2F74F /* AreaPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB02FE5F1F2F252500A2F74F /* AreaPickerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		FB02FE501F2F248200A2F74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB02FE531F2F248200A2F74F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB02FE551F2F248200A2F74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB02FE5B1F2F24AE00A2F74F /* areas.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = areas.plist; sourceTree = "<group>"; };
+		FB02FE5F1F2F252500A2F74F /* AreaPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AreaPickerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +60,12 @@
 			children = (
 				FB02FE491F2F248100A2F74F /* AppDelegate.swift */,
 				FB02FE4B1F2F248100A2F74F /* ViewController.swift */,
+				FB02FE5F1F2F252500A2F74F /* AreaPickerViewController.swift */,
 				FB02FE4D1F2F248100A2F74F /* Main.storyboard */,
 				FB02FE501F2F248200A2F74F /* Assets.xcassets */,
 				FB02FE521F2F248200A2F74F /* LaunchScreen.storyboard */,
 				FB02FE551F2F248200A2F74F /* Info.plist */,
+				FB02FE5B1F2F24AE00A2F74F /* areas.plist */,
 			);
 			path = Picker;
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB02FE541F2F248200A2F74F /* LaunchScreen.storyboard in Resources */,
+				FB02FE5C1F2F24AE00A2F74F /* areas.plist in Resources */,
 				FB02FE511F2F248200A2F74F /* Assets.xcassets in Resources */,
 				FB02FE4F1F2F248100A2F74F /* Main.storyboard in Resources */,
 			);
@@ -139,6 +146,7 @@
 			files = (
 				FB02FE4C1F2F248100A2F74F /* ViewController.swift in Sources */,
 				FB02FE4A1F2F248100A2F74F /* AppDelegate.swift in Sources */,
+				FB02FE601F2F252500A2F74F /* AreaPickerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

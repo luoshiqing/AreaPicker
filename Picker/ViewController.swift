@@ -10,9 +10,25 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
+    @IBOutlet weak var btn: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+    }
+    @IBAction func btnAct(_ sender: Any) {
+        
+        let rect = CGRect(x: 0, y: 150, width: self.view.frame.width, height: 300)
+        let areaVC = AreaPickerViewController(title: "哈哈", frame: rect) { (pro,area,city) in
+            //省市区选择回调
+            print(pro,area,city)
+        }
+        areaVC.view.backgroundColor = UIColor.black.withAlphaComponent(0.4)
+        self.present(areaVC, animated: false, completion: nil)
+        
     }
 
     override func didReceiveMemoryWarning() {
