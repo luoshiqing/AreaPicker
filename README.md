@@ -19,7 +19,7 @@ let areaVC = AreaPickerViewController(title: "哈哈", frame: rect) { (pro,area,
     
     /*
     
-    let areaVC = AreaPickerViewController(title: "哈哈", frame: rect) { [weak self](pro,area,city) in
+    let areaVC = AreaPickerViewController(title: "哈哈", frame: rect) { [weak self] (pro,area,city) in
     
     self?.xxx = pro
     
