@@ -15,6 +15,18 @@ let areaVC = AreaPickerViewController(title: "哈哈", frame: rect) { (pro,area,
     
     print(pro,area,city)
     
+    //此处如用到self属性，则需弱引用
+    
+    /*
+    
+    let areaVC = AreaPickerViewController(title: "哈哈", frame: rect) { [weak self](pro,area,city) in
+    
+    self?.xxx = pro
+    
+    }
+    
+    */
+ 
 }
 
 areaVC.view.backgroundColor = UIColor.black.withAlphaComponent(0.4)
