@@ -21,13 +21,15 @@ let areaVC = AreaPickerViewController(title: "哈哈", frame: rect) { (pro,area,
     
     let areaVC = AreaPickerViewController(title: "哈哈", frame: rect) { [weak self] (pro,area,city) in
     
-        self?.xxx = pro
+           self?.xxx = pro
     
     }
     
     */
  
 }
+
+//设置透明度
 
 areaVC.view.backgroundColor = UIColor.black.withAlphaComponent(0.4)
 
